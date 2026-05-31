@@ -1,0 +1,33 @@
+:root {
+    --bg-color: rgb(4, 9, 39);
+    --primary-color: rgb(47, 47, 228);
+    --secondary-color: rgb(26, 25, 83);
+    --tertiary-color: rgb(7, 237, 207);
+    --text: rgb(230, 230, 240);
+    --text-muted: rgb(160, 160, 184);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text);
+    margin: 4px;
+}
+
+.show-area {
+    width: fit-content;
+    padding: 16px 32px 16px 32px;
+    background-color: var(--tertiary-color);
+    border-radius: 20px ;
+}
+
+footer {
+    margin: 20px 5px 5px 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer i {
+    color: var(--text);
+    font-size: 32px;
+    padding: 8px;
+}
