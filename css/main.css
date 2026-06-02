@@ -1,9 +1,36 @@
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quick-info {
+    display: block;
+    margin: 32px 64px 0 0;
+    padding: 8px 16px;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    box-shadow: 0 0 24px 8px var(--shadow-color);
+}
+
+.quick-info span {
+    display: block;
+    padding: 4px;
+}
+
+.skills-section {
+    display: flex;
+    justify-content: center;
+}
+
 .show-area {
     width: fit-content;
     padding: 16px 32px 16px 32px;
     background-color: var(--surface-color);
     border: 1px solid var(--border-color);
-    border-radius: 20px ;
+    border-radius: 20px;
+    box-shadow: 0 0 24px 8px var(--shadow-color);
 }
 
 .icons {
@@ -11,6 +38,8 @@
     margin: 20px;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -46,6 +75,10 @@
 
 .card h3 {
     margin: 0;
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .tech-field {
