@@ -1,10 +1,15 @@
 :root {
-    --bg-color: rgb(4, 9, 39);
-    --primary-color: rgb(47, 47, 228);
-    --secondary-color: rgb(26, 25, 83);
-    --tertiary-color: rgb(7, 237, 207);
-    --text: rgb(230, 230, 240);
-    --text-muted: rgb(160, 160, 184);
+    --bg-color: rgb(3, 7, 18);
+    --primary-color: rgb(56, 189, 248);
+    --secondary-color: rgb(129, 140, 248);
+    --tertiary-color: rgb(45, 212, 191);
+    --surface-color: rgb(15, 23, 42);
+    --surface-variant-color: rgba(56, 189, 248, 0.12);
+    --border-color: rgb(51, 65, 85);
+    --border-variant-color: rgba(56, 189, 248, 0.35);
+    --shadow-color: rgba(56, 189, 248, 0.12);
+    --text: rgb(241, 245, 249);
+    --text-muted: rgb(148, 163, 184);
 }
 
 body {
@@ -13,11 +18,43 @@ body {
     margin: 4px;
 }
 
-.show-area {
-    width: fit-content;
-    padding: 16px 32px 16px 32px;
-    background-color: var(--tertiary-color);
-    border-radius: 20px ;
+section {
+    margin: 8px;
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 32px 32px 64px 32px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--surface-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 32px;
+}
+
+header .sections a {
+    padding: 4px;
+    text-decoration: none;
+}
+
+header .info {
+    justify-content: start;
+}
+
+header .info h3 {
+    margin: 0;
 }
 
 footer {

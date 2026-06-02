@@ -2,18 +2,25 @@
 <html lang="en">
   <head>
     <title>Mohammed Al-Shugaa</title>
-    <script src="/js/include.js"></script>
+    <script src="./js/include_head.js"></script>
+    <script src="./js/include.js" defer></script>
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header></header>
     <main>
-      <section class="skills">
+      <section id="about">
+        <h2>About</h2>
+        <p>Hi, I am Mohammed Al-Shugaa, a self-taught developer. I am a curious programmer who enjoys building things
+          from scratch and understanding how they work under the hood. I am also a Chess player. Currently,
+          I am just exploring things and testing out different things</p>
+      </section>
+      <section id="skills">
         <div class="skills-1">
           <h2>I know:</h2>
           <div class="icons show-area">
             <img src="images/python.svg" alt="Python">
             <img src="images/markdown.svg" alt="Markdown">
+            <img src="images/pygame_ce.svg" alt="Pygame-ce">
             <img src="images/pycharm.svg" alt="PyCharm">
             <img src="images/vscode.svg" alt="VsCode">
             <img src="images/git.svg" alt="Git">
@@ -32,20 +39,70 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="projects">
+        <h2>Projects:</h2>
+        <div class="project-cards">
+          <div class="card">
+            <h3><a href="https://mxd-k1.github.io">MXD-K1.github.io</a></h3>
+            <p>My personal website, which you are in right now. It is a static website hosted by GitHub pages.
+              It serves as a place to showcase my projects, and interests. It is inspired by
+              <a href="https://www.taniarascia.com">taniarascia.com</a></p>
+            <div>Tech Stack:
+              <span class="tech-field">HTML</span>
+              <span class="tech-field">CSS</span>
+              <span class="tech-field">JS</span>
+            </div>
+            <div>
+              <a href="https://github.com/MXD-K1/MXD-K1.github.io"><span class="source-field">Source</span></a>
+              <a href="https://mxd-k1.github.io"><span class="source-field">Live Site</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <h3><a href="https://github.com/MXD-K1/Zleda-like-Game">Zelda-like-Game</a></h3>
+            <p>A 2D top-down adventure game built with Python and Pygame, inspired by classic Zelda-style gameplay.
+              This project was made purely for fun and personal practice in game development, following the
+              <a href="https://youtu.be/QU1pPzEGrqw">Zelda-style RPG with Python and Pygame tutorial</a>
+              by Clear Code.</p>
+            <div>Tech Stack:
+              <span class="tech-field">Python</span>
+              <span class="tech-field">Pygame-ce</span>
+              <span class="tech-field">PyTMX</span>
+              <span class="tech-field">Tiled</span>
+            </div>
+            <a href="https://github.com/MXD-K1/Zleda-like-Game"><span class="source-field">Source</span></a>
+          </div>
+          <div class="card">
+            <h3><a href="https://github.com/MXD-K1/py-stardew_valley">Py-StarDew Valley</a></h3>
+            <p>This project is inspired by the Clear Code YouTube tutorial on creating a Stardew Valley-inspired game
+              using Python and Pygame. It serves as a learning exercise to explore game development concepts,
+              Python programming, and Pygame functionalities.</p>
+            <div>Tech Stack:
+              <span class="tech-field">Python</span>
+              <span class="tech-field">Pygame</span>
+              <span class="tech-field">PyTMX</span>
+              <span class="tech-field">Tiled</span>
+            </div>
+            <a href="https://github.com/MXD-K1/py-stardew_valley"><span class="source-field">Source</span></a>
+          </div>
+        </div>
+      </section>
+      <section id="accounts">
         <h2>My Accounts:</h2>
         <div class="links">
           <ul>
             <li><i class="fa-solid fa-envelope"></i> <a href="mailto:hmdoonwork71@gmail.com">Email</a></li>
             <li><i class="fa-brands fa-github"></i> <a href="https://github.com/MXD-K1">GitHub</a></li>
+            <li><i class="fa-brands fa-telegram"></i> <a href="https://t.me/MXDK1">Telegram</a></li>
             <li><i class="fa-brands fa-reddit"></i> <a href="https://www.reddit.com/user/MXD_K1">Reddit</a></li>
             <li><i class="fa-brands fa-discord"></i> <a href="https://discord.com/users/mxdk1">Discord</a></li>
+            <li><i class="fa-brands fa-itch-io"></i> <a href="https://itch.io/profile/mxd-k1">Itch.io</a></li>
             <li><a href="https://www.codewars.com/users/Mohammed%20Al-shugaa%20">Code Wars</a></li>
             <li><a href="https://roadmap.sh/u/mxd">Roadmap.sh</a></li>
+            <li><i class="fa-brands fa-steam"></i> <a href="https://steamcommunity.com/id/mxd-k1">Steam</a></li>
+            <li><i class="fa-solid fa-chess-pawn"></i> <a href="https://www.chess.com/member/MXD1King">Chess.com</a></li>
           </ul>
         </div>
       </section>
     </main>
-    <footer></footer>
   </body>
 </html>
