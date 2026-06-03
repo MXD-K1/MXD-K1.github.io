@@ -12,7 +12,17 @@
     --text-muted: rgb(148, 163, 184);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    width: 80%;
+    justify-self: center;
     background-color: var(--bg-color);
     color: var(--text);
     margin: 4px;
@@ -30,17 +40,17 @@ a {
     color: var(--primary-color);
 }
 
-p {
-    max-width: 70ch;
-}
-
 a:hover {
     color: var(--secondary-color);
 }
 
+p {
+    max-width: 65ch;
+}
+
 header nav {
-    margin: 32px 32px 64px 32px;
-    padding: 16px;
+    margin: 32px 0 64px 0;
+    padding: 16px 32px;
     gap: 8px 12px;
     display: flex;
     flex-wrap: wrap;
