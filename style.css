@@ -4,8 +4,8 @@
     --secondary-color: rgb(129, 140, 248);
     --tertiary-color: rgb(45, 212, 191);
     --surface-color: rgb(15, 23, 42);
-    --surface-variant-color: rgba(56, 189, 248, 0.12);
     --border-color: rgb(51, 65, 85);
+    --surface-variant-color: rgba(56, 189, 248, 0.12);
     --border-variant-color: rgba(56, 189, 248, 0.35);
     --shadow-color: rgba(56, 189, 248, 0.12);
     --text: rgb(241, 245, 249);
@@ -29,7 +29,7 @@ body {
 }
 
 section {
-    margin: 8px;
+    margin: 64px 8px;
 }
 
 h1, h2 {
@@ -45,7 +45,13 @@ a:hover {
 }
 
 p {
-    max-width: 65ch;
+    max-width: 70ch;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--text-muted);
 }
 
 header nav {

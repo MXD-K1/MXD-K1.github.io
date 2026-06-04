@@ -1,3 +1,7 @@
+h1 {
+    font-size: 4rem;
+}
+
 .about-section {
     display: flex;
     flex-wrap: wrap;
@@ -6,39 +10,71 @@
 
 .basic-info {
     margin: 0 4px;
-    padding: 8px 12px;
-    background-color: var(--surface-color);
-    border: 1px solid var(--border-color);
-    border-radius: 24px;
-    box-shadow: 0 0 24px 8px var(--shadow-color);
-}
-
-.quick-info {
-    display: block;
-    margin: 32px 64px 0 0;
     padding: 8px 16px;
     background-color: var(--surface-color);
     border: 1px solid var(--border-color);
     border-radius: 24px;
     box-shadow: 0 0 24px 8px var(--shadow-color);
+    width: 58%;
 }
 
-.quick-info span {
+.basic-info p {
+    font-size: 1.4rem;
+}
+
+.basic-info i {
+    color: var(--tertiary-color);
+}
+
+.quick-info {
     display: block;
-    padding: 4px;
+    margin: 8px 0;
+    padding: 8px 16px;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    box-shadow: 0 0 24px 8px var(--shadow-color);
+    width: 38%;
+}
+
+.quick-info dl {
+    padding: 0 4px;
+    display: grid;
+    gap: 12px;
+}
+
+.quick-info dl div {
+    display: flex;
+    padding: 0 0 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.quick-info dt {
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.quick-info dd {
+    color: var(--text);
+    margin: 0 8px;
+}
+
+.quick-info p {
+    color: var(--text-muted);
+}
+
+.quick-info a {
+    text-decoration: none;
 }
 
 .skills-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
     gap: 32px;
 }
 
 .skills-1, .skills-2 {
-    width: 45%;
-    min-width: 50px;
-    max-width: 45%;
+    min-width: 0;
 }
 
 .show-area {
@@ -56,7 +92,7 @@
 
 .icons {
     display: grid;
-    margin: 20px;
+    margin: 20px 0 0 0;
     grid-template-columns: repeat(auto-fit, minmax(54px, 1fr));
     justify-items: center;
     align-items: center;
@@ -96,13 +132,9 @@
 
 .project-cards {
     display: grid;
-    margin: 20px;
-    padding: 10px;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    justify-self: center;
+    margin: 30px 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
-    max-width: 80%;
 }
 
 .card {
@@ -114,7 +146,13 @@
     box-shadow: 0 0 12px 8px var(--shadow-color);
 }
 
+.card:hover {
+    background-color: var(--surface-variant-color);
+    border-color: var(--border-variant-color);
+}
+
 .card h3 {
+    font-size: 1.4rem;
     margin: 0;
 }
 
@@ -122,10 +160,16 @@
     text-decoration: none;
 }
 
+.card p {
+    line-height: 1.4;
+    color: var(--text-muted);
+}
+
 .tech-field {
     display: inline-block;
     margin: 4px;
     padding: 4px 8px;
+    color: var(--bg-color);
     background-color: var(--tertiary-color);
     border-radius: 24px;
     font-size: 0.85rem;
@@ -133,7 +177,7 @@
 
 .source-field {
     display: inline-block;
-    margin: 12px 0 0 8px;
+    margin: 12px 4px;
     padding: 4px 8px;
     background-color: var(--surface-variant-color);
     border: 1px solid var(--border-variant-color);
