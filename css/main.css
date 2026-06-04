@@ -5,12 +5,13 @@ h1 {
 .about-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 2vw;
 }
 
 .basic-info {
     margin: 0 4px;
     padding: 8px 16px;
+    flex: 2 1 420px;
     background-color: var(--surface-color);
     border: 1px solid var(--border-color);
     border-radius: 24px;
@@ -28,6 +29,7 @@ h1 {
 
 .quick-info {
     display: block;
+    flex: 1 1 280px;
     margin: 8px 0;
     padding: 8px 16px;
     background-color: var(--surface-color);
@@ -171,6 +173,7 @@ h1 {
     margin: 4px;
     padding: 4px 8px;
     color: var(--bg-color);
+    font-weight: bold;
     background-color: var(--tertiary-color);
     border-radius: 24px;
     font-size: 0.85rem;
@@ -180,6 +183,7 @@ h1 {
     display: inline-block;
     margin: 12px 4px;
     padding: 4px 8px;
+    font-weight: bold;
     background-color: var(--surface-variant-color);
     border: 1px solid var(--border-variant-color);
     border-radius: 8px;
