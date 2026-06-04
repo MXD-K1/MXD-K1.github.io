@@ -108,6 +108,7 @@ h1 {
 
 .links {
     display: grid;
+    font-weight: bold;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 
