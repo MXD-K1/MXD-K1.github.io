@@ -67,15 +67,11 @@
     min-width: 0;
 }
 
-.show-area {
+.skill-icons-box {
     padding: 16px 32px;
-    background-color: var(--surface-color);
-    border: 1px solid var(--border-color);
-    border-radius: 20px;
-    box-shadow: 0 0 24px 8px var(--shadow-color);
 }
 
-.show-area h3 {
+.skill-icons-box h3 {
     color: var(--tertiary-color);
     margin: 0;
 }

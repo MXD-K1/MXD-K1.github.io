@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    width: 80%;
+    width: min(95%, 1100px);
     justify-self: center;
     font-family: "Comic Neue", cursive;
     color: var(--text);
@@ -35,7 +35,7 @@ section {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 8vw, 4rem);
 }
 
 h1, h2 {
