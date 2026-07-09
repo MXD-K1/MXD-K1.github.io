@@ -1,0 +1,31 @@
+p {
+    color: var(--text-muted);
+}
+
+.contact-form-box {
+    display: block;
+    justify-self: center;
+    justify-content: center;
+}
+
+.input-field, .message-field {
+    display: block;
+    margin: 4px;
+    padding: 4px;
+    min-width: 400px;
+}
+
+.input-field {
+    font-family: inherit;
+}
+
+.message-field {
+    resize: vertical;
+}
+
+.submit-btn {
+    display: block;
+    margin: 16px auto;
+    width: 100px;
+    max-width: 1fr;
+}

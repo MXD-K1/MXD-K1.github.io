@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Links to contact link to Mohammed Al-Shugaa">
+
+    <title>Contacts</title>
+    <link rel="icon" href="./favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/pages/contacts.css">
+    <script src="./js/include.js" defer></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript" src="./js/send_email.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="line-grid-bg">
+    <main>
+      <h1>Let's Connect</h1>
+      <section id="contacts">
+        <h2>Links:</h2>
+        <p>If you have any idea or would like to discuss any topic, feel free to use any of the links below</p>
+        <div class="links">
+          <a class="box-2" href="mailto:hmdoonwork71@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a>
+          <a class="box-2" href="https://github.com/MXD-K1"><i class="fa-brands fa-github"></i>GitHub</a>
+          <a class="box-2" href="https://t.me/MXDK1"><i class="fa-brands fa-telegram"></i>Telegram</a>
+          <a class="box-2" href="https://www.reddit.com/user/MXD_K1"><i class="fa-brands fa-reddit"></i>Reddit</a>
+          <a class="box-2" href="https://discord.com/users/mxdk1"><i class="fa-brands fa-discord"></i>Discord</a>
+          <a class="box-2" href="https://www.codewars.com/users/Mohammed%20Al-shugaa%20">Code Wars</a>
+          <a class="box-2" href="https://roadmap.sh/u/mxdk1">Roadmap.sh</a>
+          <a class="box-2" href="https://itch.io/profile/mxd-k1"><i class="fa-brands fa-itch-io"></i>Itch.io</a>
+          <a class="box-2" href="https://steamcommunity.com/id/mxd-k1"><i class="fa-brands fa-steam"></i>Steam</a>
+          <a class="box-2" href="https://www.chess.com/member/MXD-K1"><i class="fa-solid fa-chess-pawn"></i>Chess.com</a>
+        </div>
+      </section>
+      <section class="contact-form">
+        <h2>Send Me a Message:</h2>
+          <form id="contact-form" class="contact-form-box">
+            <label for="name">Your Name:</label><br>
+            <input id="name" class="input-field" name="name" placeholder="Your Name (what should I call you)" required type="text"><br>
+            <label for="email">Email:</label><br>
+            <input id="email" class="input-field" name="email" placeholder="Your Email (optional)" required type="email"><br>
+            <label for="subject">Subject:</label><br>
+            <input id="subject" class="input-field" name="title" placeholder="Subject" required type="text"><br>
+            <label for="content">Contents:</label><br>
+            <textarea id="content" class="message-field" name="message" placeholder="Message"></textarea><br>
+            <button type="submit" class="submit-btn">Send</button>
+          </form>
+      </section>
+    </main>
+  </body>
+</html>

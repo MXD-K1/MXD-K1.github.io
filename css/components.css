@@ -49,6 +49,21 @@
     background-color: var(--secondary-color);
 }
 
+.links {
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+
+.links a {
+    display: flex; /* allows gap to work here*/
+    padding: 16px 24px;
+    gap: 0 12px;
+    text-decoration: none;
+}
+
 .link-box {
     margin: 12px 4px;
     padding: 4px 8px;
