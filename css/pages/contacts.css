@@ -12,7 +12,9 @@ p {
     display: block;
     margin: 4px;
     padding: 4px;
-    min-width: 400px;
+    width: 400px;
+    min-width: 100px;
+    max-width: 600px;
 }
 
 .input-field {
